@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Expense</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+	<form action="add" method="post">
+	
+		<label>Expense</label>
+		<input type="text" name="expense" required><br>
+		<label>Category</label>
+		
+		<select name="category" required>
+			<option>Food</option>
+			<option>Travel</option>
+			<option>Bill</option>
+			<option>Shopping</option>
+			<option>Entertainment</option>
+		</select><br>
+			
+		<label>Amount</label>
+		<input type="text" name="amount" required><br>
+		<label>Date</label>
+		<input type="date" name="date" required><br>
+		<button class="button" type="submit">Add Expense</button>
+
+	</form>
+</div>
+</body>
+</html>

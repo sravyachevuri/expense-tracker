@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*
+{
+	padding : 0px;
+	margin : 0px;
+}
+body
+{
+	font-family : Arial;
+	background : orange;
+}
+.container
+{
+	width : 50%;
+	margin : 50px auto;
+	background : white;
+	padding : 25px;
+	border-radius : 10px;
+	box-shadow : 0px 0px 10px rgba(0,0,0,0,0.3);
+}
+h2
+{
+	color : purple;
+}
+h4
+{
+	color : blue;
+}
+input,select
+{
+	width : 100%;
+	padding : 10px;
+	margin : 8px 0;
+	border : 1px solid black;
+	border-radius : 5px; 
+}
+.button
+{
+	text-align : center;
+	width : 100%;
+	padding : 10px;
+	background : green;
+	color : white;
+	border : none;
+	border-radius : 5px; 
+	cursor : pointer;	
+}
+button:hover
+{
+	background : darkgreen;
+}
+a
+{
+	text-decoration : none;
+	color : white; 	
+}
+.link-btn
+{
+	display : inline-block;
+	padding : 10px;
+	background : blue;
+	border-radius : 5px;
+	margin-top : 10px; 
+	text-align : center; 
+}
